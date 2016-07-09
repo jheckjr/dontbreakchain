@@ -1,0 +1,91 @@
+body {
+  padding: 0 4em;
+  font-family: sans-serif;
+}
+.header {
+  margin-bottom: 1em;
+  width: 50.5em;
+  margin: 0 auto;
+}
+.header h3 {
+  margin-top: 10px;
+  clear: both;
+}
+.site-title {
+  margin: 1em 0 0.2em 0;
+  padding: 0;
+}
+.task-title {
+  position: relative;
+  height: 40px;
+}
+.task-title span {
+  padding: 0 0 5px 0;
+  float: left;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.task-title .edit {
+  margin-left: 20px;
+  position: absolute;
+  top: 4px;
+  height: 24px;
+  width: 24px;
+  background-color: #00CF01;
+  color: #FFF;
+  border: none;
+  border-radius: 3px;
+}
+.table {
+  display: table;
+  margin: 0 auto;
+  border-collapse: collapse;
+  color: #404040;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell{
+  display: table-cell;
+  padding: 0.5em;
+  width: 7em;
+  height: 6em;
+  font-size: 0.9em;
+  text-align: center;
+  color: red;
+  border: #f0f0f0 1px solid;
+}
+
+.table-cell p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  text-align: left;
+  color: #404040;
+}
+
+.table-head {
+  display: table-cell;
+  font-size: 0.9em;
+  padding: 0 0.5em;
+}
+.table button {
+  color: red;
+  width: 7em;
+  font-size: 1em;
+  background-color: white;
+  border: none;
+  margin: 0;
+}
+.table button.empty {
+  padding: 1em 0 4em 0;
+}
+.table button:focus {
+  outline: 0 !important;
+  border: solid 1px #EDEDED;
+}
+.extra-row {
+  display:none;
+}
